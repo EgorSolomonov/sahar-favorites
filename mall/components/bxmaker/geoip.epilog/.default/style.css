@@ -1,0 +1,40 @@
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box.preloader
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box div
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box div
+.c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box .search_options_box div.item
+@media screen and (min-width: 461px) and (max-width: 767px) {
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box {
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    padding: 15px;
+    margin-left: 0;
+    height: auto;
+  }
+}
+@media screen and (max-width: 460px) {
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    padding: 15px;
+    margin-left: 0;
+    height: auto;
+  }
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .header {
+    display: none;
+  }
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .city_search_box {
+    margin-top: 25px;
+  }
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .set_options .co4 {
+    width: 100%;
+    padding: 0;
+    display: none;
+  }
+  body .c-bxmaker_ipgeo_epilog_default-box .bxmaker_ipgeo_epilog_city_change_box .main_box .set_options .co4:nth-child(1) {
+    display: block;
+  }
+}

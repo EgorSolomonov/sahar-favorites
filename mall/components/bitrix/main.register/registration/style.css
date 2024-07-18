@@ -1,0 +1,22 @@
+.captcha{
+    height: 52px;
+}
+.captcha > b{
+    float: left;
+    line-height: 32px;
+}
+.captcha > span{
+    float: right;
+}
+@media (max-width: 750px)
+{
+    .captcha{
+        height: 80px;
+    }
+    .captcha > b{
+        float: none;
+    }
+    .captcha > span{
+        float: none;
+    }
+}

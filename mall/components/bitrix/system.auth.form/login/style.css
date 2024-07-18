@@ -1,0 +1,23 @@
+body main {
+    padding-bottom: 0;    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+font.errortext
+{
+    color:red;
+}
+
+font.notetext
+{
+    color:green;
+}

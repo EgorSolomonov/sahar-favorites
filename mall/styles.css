@@ -1,0 +1,132 @@
+h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.quote {
+  background: #f5f5f5;
+  border-left: 5px solid #5c3456;
+  padding: 20px 25px;
+  font-style: italic;
+  line-height: 22px;
+  display: block;
+}
+
+.quote .signature {
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* класс для стилизации списка */
+.ul_list {
+  list-style: none;
+  padding: 0;
+}
+
+.ul_list li {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+.ul_list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  background: url("/local/templates/main/images/li_bg.png") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.ul_list li:last-child {
+  margin-bottom: 0;
+}
+
+.redtext {
+  color: #5c3456;
+}
+.bxmaker__geoip__delivery-box {
+  width: 100%;
+}
+.bxmaker__geoip__delivery-prolog {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+.bxmaker__geoip__delivery-box-item-name,
+.bxmaker__geoip__delivery-box-item-period,
+.bxmaker__geoip__delivery-box-item-price {
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+}
+.bxmaker__geoip__delivery-box-item-period {
+  min-width: 80px;
+}
+.bxmaker__geoip__delivery-epilog {
+  padding-top: 10px;
+  border-top: 1px solid #cdcdcd;
+  margin-right: 4px;
+  position: relative;
+}
+
+.ty-main-title {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.text-center {
+  text-align: center;
+}
+
+.search_page_line .center_photo {
+  display: flex;
+  align-items: center;
+}
+.search_page_line .center_photo img {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Все по Избранному */
+
+.header_favorite {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.empty_favorite {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty_favorite h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.empty_favorite p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.empty_favorite a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  border: 1px solid black;
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Все по Избранному */

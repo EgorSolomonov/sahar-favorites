@@ -1,0 +1,26 @@
+.bx_my_order_cancel{
+	margin-top: 20px;
+	font-size: 15px;
+}
+.bx_my_order_cancel a, .back_to_order_list{
+	color: #5c3456;
+}
+
+.bx_my_order_cancel a, .back_to_order_list:hover {
+    color: #8c5e85;
+}
+
+.bx_my_order_cancel textarea{
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	max-width: 500px;
+}
+
+.bx_my_order_cancel_switch {
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.bx_my_order_cancel_switch .bx_mo_link{
+	margin-right: 20px;
+}

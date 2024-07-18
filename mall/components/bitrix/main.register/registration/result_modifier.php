@@ -1,0 +1,2 @@
+<?php
+$arResult["SHOW_FIELDS"] = array("NAME", "LAST_NAME", "PERSONAL_PHONE", "EMAIL", "LOGIN", "PASSWORD", "CONFIRM_PASSWORD");
